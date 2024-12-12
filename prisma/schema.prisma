@@ -25,7 +25,7 @@ model Order {
   createAt DateTime @default(now())
   updateAt DateTime @updatedAt
 
-  OrderITem OrderItem[]
+  OrderItem OrderItem[]
 }
 
 model OrderItem {
